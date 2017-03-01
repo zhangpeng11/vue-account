@@ -1,18 +1,12 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import mutations from './mutations.js';
-import actions from './actions.js'
+import mutations from './mutations';
+import actions from './actions'
 
 Vue.use(Vuex);
 
-const state = {
-	ListData: [
-		{
-			payType: '住宿',
-			payNum: '+100',
-			payDate: '20161010'
-		}
-	]
+let state = {
+	ListData: []
 }
 
 export default new Vuex.Store({

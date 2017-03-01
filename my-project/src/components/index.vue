@@ -1,12 +1,8 @@
 <template>
-	<TopBar v-bind:title="title">
-	</TopBar>
-	<div id="ct">
-		<ListItem v-for="(item, items) of ListData" :payType=item.payType :payNum=item.payNum :payDate=item.payDate></ListItem>
-	</div>
-
-
-
+  <TopBar v-bind:title="title"></TopBar>
+  <div id="ct">
+	<ListItem v-for="(item, items) of ListData" :payType=item.payType :payNum=item.payNum :payDate=item.payDate></ListItem>
+  </div>
 </template>
 
 <script>
