@@ -5,6 +5,10 @@
 <script>
 export default {
   name: 'topBap',
-  props: ['title']
+  data: () => {
+    return {
+      title: 'account'
+    }
+  }
 }
 </script>

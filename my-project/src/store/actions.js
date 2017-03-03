@@ -1,6 +1,11 @@
-const actions = {
-   
-
+export const addItem = ({dispatch}) => {
+  dispatch('ADD_ITEM')
 }
 
-export default actions;
+export const deleteItem = ({dispatch}) => {
+  dispatch('DELETE_ITEM')
+}
+
+export const editItem = ({dispatch}, e) => {
+  dispatch('EDIT_ITEM', e.target.text)
+}
