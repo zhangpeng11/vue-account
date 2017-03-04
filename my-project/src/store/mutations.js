@@ -9,6 +9,16 @@ export default {
     state.activeItem = newItem
   },
 
+  ACTIVE_ITEM (state, item) {
+    debugger
+    if (!item) {
+      debugger
+      state.activeItem = state.ListData[0]
+    } else {
+      state.activeItem = item
+    }
+  },
+
   DELETE_ITEM (state) {
     state.ListData.$remove(state.activeItem)
     state.activeItem = state.listData[0]

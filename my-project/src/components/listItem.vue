@@ -7,7 +7,7 @@
 </template>
 
 <script>
-  export default{
+  export default {
     name: 'listItem',
     props: ['payType', 'payNum', 'payDate']
   }
