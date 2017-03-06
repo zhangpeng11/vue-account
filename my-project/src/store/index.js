@@ -12,6 +12,11 @@ let state = {
       payNum: '10',
       payDate: '20170112',
       payType: '住宿'
+    },
+    {
+      payNum: '10',
+      payDate: '20170112',
+      payType: '住宿'
     }
   ],
   activeItem: {}

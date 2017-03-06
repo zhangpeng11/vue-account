@@ -12,3 +12,9 @@
     props: ['payType', 'payNum', 'payDate']
   }
 </script>
+
+<style>
+  .active {
+    color: red
+  }
+</style>
